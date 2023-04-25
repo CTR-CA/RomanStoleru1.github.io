@@ -10,12 +10,9 @@
 body {
   background: #303030;
 }
-
-.animated-background {
-  position: relative;
-}
 .container {
-  display: flex;
+  margin-top: -40%;
+  padding: 0%;
   -webkit-perspective: 500px;
   perspective: 500px;
   perspective-origin: 50% 50%;
