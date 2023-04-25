@@ -4,8 +4,8 @@
 }
 
 .dimentions {
-  height: 100%;
-  width: 100%;
+  height: 0;
+  width: 0;
 }
 body {
   background: #303030;
@@ -39,14 +39,6 @@ body {
   position: absolute;
   border: 5px solid #ccc;
   opacity: 0.85;
-  transition: 0.2s;
-}
-/* Pause animation on hover */
-.cube:hover {
-  animation-play-state: paused;
-}
-.cube:hover .card {
-  opacity: 1;
   transition: 0.2s;
 }
 
