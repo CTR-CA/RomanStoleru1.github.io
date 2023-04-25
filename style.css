@@ -15,7 +15,9 @@ body {
   perspective: 500px;
   perspective-origin: 50% 50%;
 }
-
+.logo__background {
+  background-color: white;
+}
 .cube,
 .cube .card {
   height: 290px;
