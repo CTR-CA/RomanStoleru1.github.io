@@ -10,16 +10,18 @@
 body {
   background: #303030;
 }
-.container {
-  margin-top: -40%;
-  padding: 0%;
-  -webkit-perspective: 500px;
+.container__cube {
+  display: flex;
+  margin-top: -45%;
+  padding: auto;
   perspective: 500px;
   perspective-origin: 50% 50%;
 }
 .logo__background {
   background-color: white;
 }
+
+/*CUBE*/
 .cube,
 .cube .card {
   height: 290px;
